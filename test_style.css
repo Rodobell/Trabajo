@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    height: 1500px;
+}
+.contenedor {
+    display: flex;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.botonera {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #000080;
+    border: black;
+
+}
+
+ul{
+    border: black;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 4px white;
+}
+
+aside {
+    margin: 5% 4%;
+    width: 20%;
+    height: auto;
+    background-color: #000080;
+    padding: 0.5%;
+    font-size: 13px;
+}
+
+.lista_peli ol li a:hover {
+    text-shadow: 0px 0px 4px white;
+    cursor: pointer;
+}
+
+h3 {
+    font-size:25px;
+    text-align: center;
+    margin-bottom: 20%;
+    color: white;
+}
+
+.principal {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.peli { 
+    width: 60%;
+    height: 40%;
+    margin-top: 6%;
+    background-color: #246F9E;
+}
+
+.venom {
+    width: 100%;
+    height: 100%;
+}
+
+.foto {
+    padding: 1% 2%;
+    width: 50%;
+    height: 70%;
+    float:left;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.caracteristicas {
+    width: 100%;
+    color: #000080;
+
+}
+
+h5 {
+    font-weight: bold;
+    color: white;
+    padding: 2%;
+    font-size: 14px;
+}
+
+.descripcion {
+    padding: 6% 2%;
+    color: white;
+}
+
+.horarios {
+    padding: 4%;
+}
+
+.form {
+    padding: 5% 30%;
+}
+.btn {
+    border-radius: 12px;
+    padding:8%;
+    color: white;
+    background-color: #000080;
+}
+
+.btn:hover {
+    text-shadow: 0px 0px 4px white;
+    cursor: pointer;
+}
